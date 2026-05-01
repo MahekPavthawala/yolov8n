@@ -1,4 +1,4 @@
-# Robust Object Detection and Lane Segmentation under Adverse Weather
+****# Robust Object Detection and Lane Segmentation under Adverse Weather
 This project investigates the robustness of YOLOv8-based perception systems for autonomous driving under adverse weather conditions such as fog, rain, snow, and nighttime scenarios.
 The study focuses on two critical perception tasks:
 Object Detection
@@ -72,3 +72,4 @@ University of Detroit Mercy
 ---
 📜 License
 MIT License
+****
