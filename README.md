@@ -57,39 +57,6 @@ pip install opencv-python numpy pandas matplotlib
 
 ## 🧪 Usage
 
-Train Object Detection:
-python train_detection.py
-
-Evaluate Model:
-python evaluate.py
-
-Generate Pseudo Labels:
-python generate_pseudo_labels.py
-
-Train Lane Segmentation:
-python train_segmentation.py
-
----
-
-## 📈 Results
-
-Object Detection:
-
-- Domain shift causes performance degradation
-- Fine-tuning improves robustness
-- Cross-dataset generalization is limited
-- Asymmetric generalization observed
-
-Lane Segmentation:
-
-- Pseudo-labeling enables adaptation
-- Improved segmentation continuity
-- Snow shows highest failure rate
-
----
-
-## 🧪 Usage
-
 ### Dataset Preparation
 
 ```bash
@@ -128,6 +95,23 @@ https://acdc.vision.ee.ethz.ch/
 
 DAWN
 https://data.mendeley.com/datasets/766ygrbt8y/3
+
+## 📈 Results
+
+Object Detection:
+
+- Domain shift causes performance degradation
+- Fine-tuning improves robustness
+- Cross-dataset generalization is limited
+- Asymmetric generalization observed
+
+Lane Segmentation:
+
+- Pseudo-labeling enables adaptation
+- Improved segmentation continuity
+- Snow shows highest failure rate
+
+---
 
 ## 🔥 Key Findings
 
