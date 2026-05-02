@@ -88,6 +88,47 @@ Lane Segmentation:
 
 ---
 
+## 🧪 Usage
+
+### Dataset Preparation
+
+```bash
+python Code/convert_BDD100K_coco_to_yolo_multiclass.py
+python Code/convert_ACDC_coco_to_yolo_multiclass.py
+python Code/dawn_images_split_label.py
+```
+
+### Object Detection
+
+```bash
+python Code/YOLOv8n_train_BDD100K_test_ACDC.py
+python Code/finetune_yolov8n_bdd_to_acdc_final.py
+python Code/yolov8n_train_validate_acdc_test_dawn.py
+python Code/yolov8n_train_validate_dawn_test_acdc.py
+```
+
+### Lane Segmentation
+
+```bash
+python Code/train_yolov8n_bdd_lane_segmentation.py
+python Code/generate_acdc_pseudo_labels.py
+python Code/fine_tune_yolov8n_pseudo_label_acdc.py
+python Code/infer_ACDC_lane__weatherwise_yolov8seg.py
+```
+---
+## 📊 Datasets
+
+Datasets are not included in this repository due to size.
+
+BDD100K
+https://bdd-data.berkeley.edu/
+
+ACDC
+https://acdc.vision.ee.ethz.ch/
+
+DAWN
+https://data.mendeley.com/datasets/766ygrbt8y/3
+
 ## 🔥 Key Findings
 
 Domain shift impacts perception
