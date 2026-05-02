@@ -36,15 +36,16 @@ This project uses the following datasets:
 
 ## 🧱 Project Structure
 
-├── code/  
-├── datasets/  
-├── figures/  
-├── runs/  
-├── README.md  
-├── LICENSE
----
+```text
+yolov8n/
+├── Code/
+├── Documents/
+├── Sample Outputs/
+├── README.md
+├── requirements.txt
+└── LICENSE
 
----
+```
 
 ## ⚙️ Installation
 
